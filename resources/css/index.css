@@ -1,0 +1,122 @@
+body{
+    margin: 0px 20%;;
+}
+p {
+    font-family: Georgia;
+    margin: 0;
+}
+
+h1 {
+    font-family: monospace;
+    color:#0d4a80;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h6 {
+    padding: 4px;
+    background-color: rgb(196, 138, 30);
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    margin: 0;
+} 
+
+h5 {
+    display: inline-block;
+    width: 70px;
+    float: right;
+    position: relative;
+    top: -41px;
+    color: grey;
+  }
+
+main {
+    height: 364.8px;
+}
+
+section {
+    top: 125px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+main img {
+    width: 60%;
+    border-radius: 5px;
+    float: right;
+}
+
+main .chemistry {
+    background-color: #46a8cf;
+    width: 35%;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.geology h6 {
+    background-color: green;
+}
+
+.author {
+    color: grey;
+    opacity: 0.5;
+}
+
+.container-spotlight {
+    position: relative;
+    left: 8%;
+    top: 25%;
+}
+
+.container-spotlight .chemistry p {
+    max-width: 320px;
+}   
+
+.container-spotlight span {
+    position: relative;
+    top: 10px;
+    color: grey;
+    font-size: 20px;
+}
+
+.container-article {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 305px;
+    background-color: #f8f8ff;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-article span {
+    float: right;
+}
+
+.container-article p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.chemistry p, .geology p {
+    max-width: 250px;
+}
+
+.container-article img{
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 140px;
+}
+
+main .chemistry h3, main .chemistry p {
+    color: white;
+}
